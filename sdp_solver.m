@@ -1,7 +1,5 @@
-function [X,y,Z,out] = mysdp(A,b,C,tol)
+function [X,y,Z,out] = sdp_solver(A,b,C,tol)
 
-
-tol = 3.731078e-06;
 
 %% check shape, sparsity:
 [n,mn] = size(A);
